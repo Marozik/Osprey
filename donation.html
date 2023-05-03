@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.typekit.net/xcq0dsn.css" />
+    <link rel="stylesheet" href="css//aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Donation requests</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid gap-lg-2">
+          <a class="navbar-brand logo flex-shrink-0" href="#">
+            <img class="img-fluid" src="img/header/header-logo.png" alt="Header logo" />
+          </a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse ul-bg h-100 w-100 navbar-collapse justify-content-end gap-lg-2" id="navbarSupportedContent">
+            <ul class="navbar-nav text-center-lg m-auto mb-2 mb-lg-0 gap-xl-5 gap-lg-1">
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">community</a>
+                <ul class="dropdown-menu rounded-0">
+                  <li><a class="dropdown-item" href="jacksonhole.html">jacksonhole, wy</a></li>
+                  <li><a class="dropdown-item" href="philantropy.html">philanthropy</a></li>
+                  <li><a class="dropdown-item" href="donation.html">donations request</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">news</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">about</a>
+                <ul class="dropdown-menu rounded-0">
+                  <li><a class="dropdown-item" href="our-story.html">our-story</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">contact</a>
+                <ul class="dropdown-menu rounded-0">
+                  <li><a class="dropdown-item" href="information.html">information</a></li>
+                  <li><a class="dropdown-item" href="servicearea.html">service area</a></li>
+                  <li><a class="dropdown-item" href="suppliers.html">suppliers</a></li>
+                  <li><a class="dropdown-item" href="careers.html">careers</a></li>
+                  <li><a class="dropdown-item" href="contact-form.html">contact form</a></li>
+                </ul>
+              </li>
+            </ul>
+            <a
+              href="https://login.vtinfo.com/adfs/oauth2/authorize/?client_id=deeb6927-e324-44e8-b7d8-7de363af8243&redirect_uri=https://apps.vtinfo.com/retailer-portal/openid&resource=https://vtinfo.com&response_type=code&scope=email%20profile%20vtinfo.itemcatalog.distributor.read%20vtinfo.beverage.retailer.pricing%20vtinfo.sso.admin.readwrite%20vtinfo.client%20vtinfo.pay.stripe.sellers.read%20vtinfo.ras.mws.readwrite&state=f7IxEu"
+              target="_blank"
+              class="btn px-3 py-2 rounded-0 btn-light flex-shrink-0"
+              >Retailer Portal</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="hero position-top">
+        <img src="img/donation/hero.jpeg" alt="Main image" />
+      </div>
+      <section class="donation pb-4 pb-md-5 pt-4 pt-md-5">
+        <div class="donation-container px-3 m-auto text-center">
+          <h1 data-aos="zoom-in" class="big-title w-sm-100 mb-5">DONATION REQUESTS</h1>
+          <div data-aos="zoom-in" class="donation__text text-start mb-5">
+            <p class="text mb-4">
+              It is a pleasure and the mission of Osprey Beverages to help with your fundraising efforts, and we are proud to support all the
+              worthwhile organizations within our community, but due to the sheer volume of requests we receive we are not always able to contribute
+              to every ask. We are also proud to be a Community Foundation of Jackson Hole Old Bill’s COChallenger since 2015, where we get to help
+              support every not for profit within the community yearly!
+            </p>
+            <p class="text">
+              For Osprey Beverages to approve your requests, we will need you to complete the application form. Please consider the following
+              requirements:
+            </p>
+          </div>
+          <ul data-aos="zoom-in" class="donation__list list text-start mb-md-5 mb-4">
+            <li class="list__item mb-4">
+              Due to our consumer responsibility practices we are not able to donate any alcoholic products to youth organizational events where youth
+              are present.
+            </li>
+            <li class="list__item mb-4">
+              We are only able to fulfill requests to organizations that are qualified under section 501(c)3 of the Internal Revenue Service, and a
+              copy of the organization’s tax-exempt documentation must be attached.
+            </li>
+            <li class="list__item">All requests must be submitted 30 days prior to the event.</li>
+          </ul>
+          <form data-aos="zoom-in" class="form m-auto text-start">
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="organization-name" class="form-label d-block m-0">Organization Name</label>
+                <input type="text" id="organization-name" name="organization-name" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="cause" class="form-label d-block m-0">Cause/Beneficiary </label>
+                <input type="text" id="cause" name="cause" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="address" class="form-label d-block m-0">Address</label>
+                <input type="text" id="address" name="address" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12 col-md-5 mb-3 mb-md-0">
+                <label for="city" class="form-label d-block m-0">City</label>
+                <input type="text" id="city" name="city" required class="form__input w-100" />
+              </div>
+              <div class="form__line col-12 col-md-5 mb-3 mb-md-0">
+                <label for="state" class="form-label d-block m-0">State</label>
+                <select id="state" class="form__select w-100 rounded-0">
+                  <option selected>Alabama</option>
+                  <option value="1">Alaska</option>
+                  <option value="2">Arizona</option>
+                  <option value="3">Arkansas</option>
+                  <option value="4">California</option>
+                  <option value="5">Colorado</option>
+                </select>
+              </div>
+              <div class="form__line col-12 col-md-2">
+                <label for="zip" class="form-label d-block m-0">Zip</label>
+                <input name="zip" id="zip" type="text" class="form__input w-100" inputmode="numeric" pattern="[0-9]*" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="person" class="form-label d-block m-0">Contact Person </label>
+                <input type="text" id="person" name="person-name" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12 col-sm-6 mb-3 mb-sm-0">
+                <label for="phone" class="form-label d-block m-0">Phone </label>
+                <input type="tel" name="phone" id="phone" class="form__input w-100" />
+              </div>
+              <div class="form__line col-12 col-sm-6">
+                <label for="phone-2" class="form-label d-block m-0">Additional Phone </label>
+                <input type="tel" id="phone-2" name="phone-2" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="email" class="form-label d-block m-0">Email</label>
+                <input type="email" id="email" name="email" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3 mb-sm-5">
+              <div class="form__line col-12">
+                <label for="tax" class="form-label d-block m-0">Tax ID#</label>
+                <input type="email" id="tax" name="tax" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="event" class="form-label d-block m-0">Type of Event</label>
+                <input type="text" id="event" name="event" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="location" class="form-label d-block m-0">Location</label>
+                <input type="text" id="location" name="location" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="date" class="form-label d-block m-0">Date</label>
+                <input type="date" id="date" name="date" class="form__input w-100" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="form__line col-12">
+                <label for="request" class="form-label d-block m-0">Request</label>
+                <textarea name="request" id="request" class="form__textarea form__textarea_small w-100"></textarea>
+              </div>
+            </div>
+            <div class="g-recaptcha mb-3" data-sitekey="your_site_key"></div>
+            <button type="submit" class="form__button text-uppercase">send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="p-lg-5 py-3 footer text-white">
+      <div class="py-lg-5 text-center footer-wrapper">
+        <img src="img/footer/footer-logo.png" alt="Bird" class="img-fluid mb-4" />
+        <p class="mb-4 footer-text">
+          Osprey Beverages <br />
+          4255 US-89, Jackson, WY 83001
+        </p>
+        <a href="tel:3077336767" class="text-white text-decoration-none mb-4 d-block footer-link">Phone: (307) 733-6767</a>
+        <div class="border-top border-white border-bottom py-md-5 py-3 mb-4">
+          <h3 class="fw-normal">STAY UP TO DATE WITH US</h3>
+          <form method="post" action="" class="d-flex pb-3 footer-form">
+            <input type="email" name="email" class="form-control text-white rounded-0 border bg-transparent border-white" placeholder="Your E-mail" />
+            <button type="submit" class="btn btn-light rounded-0 text-uppercase">Submit</button>
+          </form>
+        </div>
+        <p class="legal">Copyright © 2023 All Rights Reserved. | SITE BY: STUDIO<em>ALITY</em></p>
+      </div>
+    </footer>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
